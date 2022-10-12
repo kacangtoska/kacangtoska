@@ -1113,10 +1113,11 @@
         "Karena kamu udah liat website aku, berarti kamu harus jawab pertanyaan aku :'D"
       );
       if (confirm("Malem minggu jalan yuk") == true) {
-        window.location.replace(
-          "whatsapp://app/?phone=628996341271&text=ya+aku+mau"
-        );
-        // location.href = "https://api.whatsapp.com/send/?phone=628996341271&text=ya+aku+mau&type=phone_number&app_absent=0";
+        // window.location.replace(
+        //   "whatsapp://app/?phone=628996341271&text=ya+aku+mau"
+        // );
+        location.href =
+          "https://api.whatsapp.com/app/?phone=628996341271&text=ya+aku+mau&type=phone_number&app_absent=0";
         // location.href = "https://wa.me/628996341271/?text=ya%20aku%20mau";
       } else {
         location.href =
