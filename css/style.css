@@ -96,6 +96,7 @@
 /*** Navbar ***/
 .navbar {
   background-color: #1a2a36 !important;
+  border-bottom: 1px ridge #9b9b9b;
 }
 .navbar.sticky-top {
   top: -100px;
@@ -549,6 +550,7 @@
 /*** Footer ***/
 .footer {
   background-color: #1a2a36 !important;
+  border-top: 1px solid #9b9b9b;
 }
 
 .footer .btn.btn-social {
