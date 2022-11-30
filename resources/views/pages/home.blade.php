@@ -1,104 +1,21 @@
 @extends('layouts.app')
 
-@section('title', 'Homebrew')
+@section('title', 'Home')
 
 @section('content')
     
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-1.jpg'>">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-2 text-white animated slideInDown">Pioneers Of Solar And Renewable Energy</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                                <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <x-carousel/>
     <!-- Carousel End -->
 
 
     <!-- Feature Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="d-flex align-items-center mb-4">
-                        <div class="btn-lg-square bg-primary rounded-circle me-3">
-                            <i class="fa fa-users text-white"></i>
-                        </div>
-                        <h1 class="mb-0" data-toggle="counter-up">3453</h1>
-                    </div>
-                    <h5 class="mb-3">Happy Customers</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="d-flex align-items-center mb-4">
-                        <div class="btn-lg-square bg-primary rounded-circle me-3">
-                            <i class="fa fa-check text-white"></i>
-                        </div>
-                        <h1 class="mb-0" data-toggle="counter-up">4234</h1>
-                    </div>
-                    <h5 class="mb-3">Project Done</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="d-flex align-items-center mb-4">
-                        <div class="btn-lg-square bg-primary rounded-circle me-3">
-                            <i class="fa fa-award text-white"></i>
-                        </div>
-                        <h1 class="mb-0" data-toggle="counter-up">3123</h1>
-                    </div>
-                    <h5 class="mb-3">Awards Win</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
-                </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="d-flex align-items-center mb-4">
-                        <div class="btn-lg-square bg-primary rounded-circle me-3">
-                            <i class="fa fa-users-cog text-white"></i>
-                        </div>
-                        <h1 class="mb-0" data-toggle="counter-up">1831</h1>
-                    </div>
-                    <h5 class="mb-3">Expert Workers</h5>
-                    <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span>
-                </div>
-            </div>
-        </div>
-    </div>
+    <x-feature/>
     <!-- Feature Start -->
 
 
     <!-- About Start -->
-    <div class="container-fluid bg-secondary overflow-hidden my-5 px-lg-0">
-        <div class="container about px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <h6 class="text-primary">About Us</h6>
-                        <h1 class="mb-4">25+ Years Experience In Solar & Renewable Energy Industry</h1>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Diam dolor diam ipsum</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Aliqu diam amet diam et eos</p>
-                        <p><i class="fa fa-check-circle text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Explore More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <x-about/>
     <!-- About End -->
 
 
@@ -192,6 +109,74 @@
         </div>
     </div>
     <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    {{-- <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <h6 class="text-primary">Why Choose Us!</h6>
+                        <h1 class="mb-4">Complete Commercial & Residential Solar Systems</h1>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Quality</p>
+                                        <h5 class="mb-0">Services</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-user-check text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Expert</p>
+                                        <h5 class="mb-0">Workers</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-drafting-compass text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Free</p>
+                                        <h5 class="mb-0">Consultation</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn-lg-square bg-primary rounded-circle">
+                                        <i class="fa fa-headphones text-white"></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-0">Customer</p>
+                                        <h5 class="mb-0">Support</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> --}}
+    <!-- Feature End -->
 
 
     <!-- Projects Start -->
@@ -301,75 +286,9 @@
     </div>
     <!-- Projects End -->
 
-        <!-- Feature Start -->
-    <div class="container-fluid overflow-hidden my-5 px-lg-0">
-        <div class="container feature px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="p-lg-5 ps-lg-0">
-                        <h6 class="text-primary">Why Choose Us!</h6>
-                        <h1 class="mb-4">Complete Commercial & Residential Solar Systems</h1>
-                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-lg-square bg-primary rounded-circle">
-                                        <i class="fa fa-check text-white"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-0">Quality</p>
-                                        <h5 class="mb-0">Services</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-lg-square bg-primary rounded-circle">
-                                        <i class="fa fa-user-check text-white"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-0">Expert</p>
-                                        <h5 class="mb-0">Workers</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-lg-square bg-primary rounded-circle">
-                                        <i class="fa fa-drafting-compass text-white"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-0">Free</p>
-                                        <h5 class="mb-0">Consultation</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn-lg-square bg-primary rounded-circle">
-                                        <i class="fa fa-headphones text-white"></i>
-                                    </div>
-                                    <div class="ms-4">
-                                        <p class="mb-0">Customer</p>
-                                        <h5 class="mb-0">Support</h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Feature End -->
 
     <!-- Team Start -->
-    <div class="container-xxl bg-white py-5">
+    <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h6 class="text-primary">Team Member</h6>
