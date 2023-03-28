@@ -10,7 +10,7 @@
               <i
                 class="flaticon-050-fence h1 font-weight-normal text-primary mb-3"
               ></i>
-              <div class="pl-4">
+              <div class="ps-4">
                 <h4>Play Ground</h4>
                 <p class="m-0">
                   Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
@@ -27,7 +27,7 @@
               <i
                 class="flaticon-022-drum h1 font-weight-normal text-primary mb-3"
               ></i>
-              <div class="pl-4">
+              <div class="ps-4">
                 <h4>Music and Dance</h4>
                 <p class="m-0">
                   Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
@@ -44,7 +44,7 @@
               <i
                 class="flaticon-030-crayons h1 font-weight-normal text-primary mb-3"
               ></i>
-              <div class="pl-4">
+              <div class="ps-4">
                 <h4>Arts and Crafts</h4>
                 <p class="m-0">
                   Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
@@ -61,7 +61,7 @@
               <i
                 class="flaticon-017-toy-car h1 font-weight-normal text-primary mb-3"
               ></i>
-              <div class="pl-4">
+              <div class="ps-4">
                 <h4>Safe Transportation</h4>
                 <p class="m-0">
                   Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
@@ -78,7 +78,7 @@
               <i
                 class="flaticon-025-sandwich h1 font-weight-normal text-primary mb-3"
               ></i>
-              <div class="pl-4">
+              <div class="ps-4">
                 <h4>Healthy food</h4>
                 <p class="m-0">
                   Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
@@ -95,7 +95,7 @@
               <i
                 class="flaticon-047-backpack h1 font-weight-normal text-primary mb-3"
               ></i>
-              <div class="pl-4">
+              <div class="ps-4">
                 <h4>Educational Tour</h4>
                 <p class="m-0">
                   Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero

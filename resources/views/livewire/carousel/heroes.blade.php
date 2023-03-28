@@ -12,10 +12,10 @@
             ipsum at ipsum nonumy amet. Clita lorem dolore sed stet et est justo
             dolore.
           </p>
-          <a href="" class="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
+          <a href="#" class="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
         </div>
         <div class="col-lg-6 text-center text-lg-right">
-          <img class="img-fluid mt-5" src="img/header2.png" alt="" />
+          <img class="img-fluid mt-5" src="{{ asset('img/header2.png') }}" alt="Logo Heroes" />
         </div>
       </div>
     </div>

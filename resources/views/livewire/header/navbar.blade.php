@@ -2,12 +2,12 @@
     <div class="container-fluid bg-light position-relative shadow">
       <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
         <a
-          href=""
+          href="{{ route('home') }}"
           class="navbar-brand font-weight-bold text-secondary"
           style="font-size: 32px"
         >
-          <img src="img/logo.png" alt="" width="32" height="32">
-          <span class="text-primary">KidKinder</span>
+          <img src="{{ asset('img/logo.png') }}" alt="Logo" width="32" height="32">
+          <span class="text-primary">{{ env('APP_NAME') }}</span>
         </a>
         <button
           type="button"
@@ -22,9 +22,9 @@
           id="navbarCollapse"
         >
           <div class="navbar-nav font-weight-bold mx-auto py-0">
-            <a href="index.html" class="nav-item nav-link active">Home</a>
-            <a href="about.html" class="nav-item nav-link">About</a>
-            <a href="class.html" class="nav-item nav-link">Classes</a>
+            <a href="{{ route('home') }}" class="nav-item nav-link active">Home</a>
+            <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
+            <a href="{{ route('blog') }}" class="nav-item nav-link">Blog</a>
             <a href="team.html" class="nav-item nav-link">Teachers</a>
             <a href="gallery.html" class="nav-item nav-link">Gallery</a>
             <div class="nav-item dropdown">

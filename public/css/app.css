@@ -30,9 +30,9 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #128c7e;
-  --bs-secondary: #075e54;
+  --bs-secondary: #1a2a36;
   --bs-primary-rgb: 18, 140, 126;
-  --bs-secondary-rgb: 7, 94, 84;
+  --bs-secondary-rgb: 26, 42, 54;
   --bs-primary-text: #0a58ca;
   --bs-secondary-text: #6c757d;
   --bs-success-text: #146c43;
@@ -81,7 +81,7 @@
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-body-bg: #fff;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-heading-color: #075e54;
+  --bs-heading-color: #1a2a36;
   --bs-link-color: #128c7e;
   --bs-link-color-rgb: 18, 140, 126;
   --bs-link-decoration: underline;
@@ -1917,13 +1917,13 @@ progress {
 
 .table-secondary {
   --bs-table-color: #000;
-  --bs-table-bg: #cddfdd;
-  --bs-table-border-color: #b9c9c7;
-  --bs-table-striped-bg: #c3d4d2;
+  --bs-table-bg: #d1d4d7;
+  --bs-table-border-color: #bcbfc2;
+  --bs-table-striped-bg: #c7c9cc;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #b9c9c7;
+  --bs-table-active-bg: #bcbfc2;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #bececc;
+  --bs-table-hover-bg: #c1c4c7;
   --bs-table-hover-color: #000;
   color: var(--bs-table-color);
   border-color: var(--bs-table-border-color);
@@ -2979,19 +2979,19 @@ textarea.form-control-lg {
 
 .btn-secondary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #075e54;
-  --bs-btn-border-color: #075e54;
+  --bs-btn-bg: #1a2a36;
+  --bs-btn-border-color: #1a2a36;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #065047;
-  --bs-btn-hover-border-color: #064b43;
-  --bs-btn-focus-shadow-rgb: 44, 118, 110;
+  --bs-btn-hover-bg: #16242e;
+  --bs-btn-hover-border-color: #15222b;
+  --bs-btn-focus-shadow-rgb: 60, 74, 84;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #064b43;
-  --bs-btn-active-border-color: #05473f;
+  --bs-btn-active-bg: #15222b;
+  --bs-btn-active-border-color: #142029;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #075e54;
-  --bs-btn-disabled-border-color: #075e54;
+  --bs-btn-disabled-bg: #1a2a36;
+  --bs-btn-disabled-border-color: #1a2a36;
 }
 
 .btn-outline-primary {
@@ -3012,19 +3012,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary {
-  --bs-btn-color: #075e54;
-  --bs-btn-border-color: #075e54;
+  --bs-btn-color: #1a2a36;
+  --bs-btn-border-color: #1a2a36;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #075e54;
-  --bs-btn-hover-border-color: #075e54;
-  --bs-btn-focus-shadow-rgb: 7, 94, 84;
+  --bs-btn-hover-bg: #1a2a36;
+  --bs-btn-hover-border-color: #1a2a36;
+  --bs-btn-focus-shadow-rgb: 26, 42, 54;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #075e54;
-  --bs-btn-active-border-color: #075e54;
+  --bs-btn-active-bg: #1a2a36;
+  --bs-btn-active-border-color: #1a2a36;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #075e54;
+  --bs-btn-disabled-color: #1a2a36;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #075e54;
+  --bs-btn-disabled-border-color: #1a2a36;
   --bs-gradient: none;
 }
 
@@ -5450,7 +5450,7 @@ textarea.form-control-lg {
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
   --bs-popover-header-font-size: 1rem;
-  --bs-popover-header-color: #075e54;
+  --bs-popover-header-color: #1a2a36;
   --bs-popover-header-bg: var(--bs-secondary-bg);
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: 1rem;
@@ -6484,7 +6484,7 @@ textarea.form-control-lg {
 
 .text-bg-secondary {
   color: #fff !important;
-  background-color: RGBA(7, 94, 84, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(26, 42, 54, var(--bs-bg-opacity, 1)) !important;
 }
 
 .link-primary {
@@ -6495,10 +6495,10 @@ textarea.form-control-lg {
 }
 
 .link-secondary {
-  color: #075e54 !important;
+  color: #1a2a36 !important;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: #064b43 !important;
+  color: #15222b !important;
 }
 
 .ratio {
@@ -11267,7 +11267,7 @@ textarea.form-control-lg {
 }
 .navbar-light .navbar-nav .nav-link {
   padding: 30px 15px;
-  color: #075e54;
+  color: #1a2a36;
   outline: none;
 }
 
@@ -11302,7 +11302,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #075e54;
+  color: #1a2a36;
   background: #128c7e;
   border-radius: 30px;
   font-size: 18px;
